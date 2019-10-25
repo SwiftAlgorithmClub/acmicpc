@@ -15,18 +15,10 @@
 		BDDB5B7123631208009B9394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDB5B7023631208009B9394 /* Assets.xcassets */; };
 		BDDB5B7423631208009B9394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDB5B7223631208009B9394 /* LaunchScreen.storyboard */; };
 		BDDB5B7F23631208009B9394 /* AlgorithmClubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB5B7E23631208009B9394 /* AlgorithmClubTests.swift */; };
-		BDDB5B8A23631208009B9394 /* AlgorithmClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDB5B8923631208009B9394 /* AlgorithmClubUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		BDDB5B7B23631208009B9394 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BDDB5B5923631206009B9394 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BDDB5B6023631206009B9394;
-			remoteInfo = AlgorithmClub;
-		};
-		BDDB5B8623631208009B9394 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BDDB5B5923631206009B9394 /* Project object */;
 			proxyType = 1;
@@ -48,9 +40,7 @@
 		BDDB5B7A23631208009B9394 /* AlgorithmClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDB5B7E23631208009B9394 /* AlgorithmClubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmClubTests.swift; sourceTree = "<group>"; };
 		BDDB5B8023631208009B9394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDDB5B8523631208009B9394 /* AlgorithmClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmClubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDDB5B8923631208009B9394 /* AlgorithmClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmClubUITests.swift; sourceTree = "<group>"; };
-		BDDB5B8B23631208009B9394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDB5B9B236319B3009B9394 /* String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = String.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,22 +58,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDDB5B8223631208009B9394 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		BDDB5B5823631206009B9394 = {
 			isa = PBXGroup;
 			children = (
+				BDDB5BA023631AF2009B9394 /* String */,
 				BDDB5B6323631206009B9394 /* AlgorithmClub */,
 				BDDB5B7D23631208009B9394 /* AlgorithmClubTests */,
-				BDDB5B8823631208009B9394 /* AlgorithmClubUITests */,
 				BDDB5B6223631206009B9394 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +76,6 @@
 			children = (
 				BDDB5B6123631206009B9394 /* AlgorithmClub.app */,
 				BDDB5B7A23631208009B9394 /* AlgorithmClubTests.xctest */,
-				BDDB5B8523631208009B9394 /* AlgorithmClubUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,13 +104,12 @@
 			path = AlgorithmClubTests;
 			sourceTree = "<group>";
 		};
-		BDDB5B8823631208009B9394 /* AlgorithmClubUITests */ = {
+		BDDB5BA023631AF2009B9394 /* String */ = {
 			isa = PBXGroup;
 			children = (
-				BDDB5B8923631208009B9394 /* AlgorithmClubUITests.swift */,
-				BDDB5B8B23631208009B9394 /* Info.plist */,
+				BDDB5B9B236319B3009B9394 /* String.playground */,
 			);
-			path = AlgorithmClubUITests;
+			path = String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,24 +150,6 @@
 			productReference = BDDB5B7A23631208009B9394 /* AlgorithmClubTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BDDB5B8423631208009B9394 /* AlgorithmClubUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BDDB5B9423631208009B9394 /* Build configuration list for PBXNativeTarget "AlgorithmClubUITests" */;
-			buildPhases = (
-				BDDB5B8123631208009B9394 /* Sources */,
-				BDDB5B8223631208009B9394 /* Frameworks */,
-				BDDB5B8323631208009B9394 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BDDB5B8723631208009B9394 /* PBXTargetDependency */,
-			);
-			name = AlgorithmClubUITests;
-			productName = AlgorithmClubUITests;
-			productReference = BDDB5B8523631208009B9394 /* AlgorithmClubUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,10 +164,6 @@
 						CreatedOnToolsVersion = 11.1;
 					};
 					BDDB5B7923631208009B9394 = {
-						CreatedOnToolsVersion = 11.1;
-						TestTargetID = BDDB5B6023631206009B9394;
-					};
-					BDDB5B8423631208009B9394 = {
 						CreatedOnToolsVersion = 11.1;
 						TestTargetID = BDDB5B6023631206009B9394;
 					};
@@ -225,7 +184,6 @@
 			targets = (
 				BDDB5B6023631206009B9394 /* AlgorithmClub */,
 				BDDB5B7923631208009B9394 /* AlgorithmClubTests */,
-				BDDB5B8423631208009B9394 /* AlgorithmClubUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,13 +200,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BDDB5B7823631208009B9394 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BDDB5B8323631208009B9394 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,14 +228,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDDB5B8123631208009B9394 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BDDB5B8A23631208009B9394 /* AlgorithmClubUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,11 +235,6 @@
 			isa = PBXTargetDependency;
 			target = BDDB5B6023631206009B9394 /* AlgorithmClub */;
 			targetProxy = BDDB5B7B23631208009B9394 /* PBXContainerItemProxy */;
-		};
-		BDDB5B8723631208009B9394 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BDDB5B6023631206009B9394 /* AlgorithmClub */;
-			targetProxy = BDDB5B8623631208009B9394 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -514,46 +452,6 @@
 			};
 			name = Release;
 		};
-		BDDB5B9523631208009B9394 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 576T8HK6X4;
-				INFOPLIST_FILE = AlgorithmClubUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.assin.AlgorithmClubUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AlgorithmClub;
-			};
-			name = Debug;
-		};
-		BDDB5B9623631208009B9394 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 576T8HK6X4;
-				INFOPLIST_FILE = AlgorithmClubUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.assin.AlgorithmClubUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AlgorithmClub;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -580,15 +478,6 @@
 			buildConfigurations = (
 				BDDB5B9223631208009B9394 /* Debug */,
 				BDDB5B9323631208009B9394 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BDDB5B9423631208009B9394 /* Build configuration list for PBXNativeTarget "AlgorithmClubUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BDDB5B9523631208009B9394 /* Debug */,
-				BDDB5B9623631208009B9394 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
