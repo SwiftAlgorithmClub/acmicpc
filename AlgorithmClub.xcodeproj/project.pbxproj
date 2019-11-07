@@ -41,6 +41,7 @@
 		BDDB5B7E23631208009B9394 /* AlgorithmClubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmClubTests.swift; sourceTree = "<group>"; };
 		BDDB5B8023631208009B9394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDDB5B9B236319B3009B9394 /* String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = String.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FF6EC8A22374447D00000565 /* Rhyno.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rhyno.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				BDDB5B9B236319B3009B9394 /* String.playground */,
+				FF6EC8A22374447D00000565 /* Rhyno.playground */,
 			);
 			path = String;
 			sourceTree = "<group>";
