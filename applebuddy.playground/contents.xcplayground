@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios'>
     <pages>
-        <page name='골드바흐의추측_6588'/>
-        <page name='팩토리얼0의개수'/>
+        <page name='골드바흐의추측_6588'/>
+        <page name='팩토리얼0의개수_1676'/>
+        <page name='랜선자르기_1654'/>
     </pages>
 </playground>
